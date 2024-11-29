@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body id="home">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary w-100 info ">
+        <div class="container ">
+          <a class="navbar-brand ms-4 " href="#">SMART LOGIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    
+              <li class="nav-item">
+                <button onclick="logout()" class="btn  w-100 my-3 logout"><a href="index.html">Logout</a></button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container my-5 text-center h-100 d-flex align-items-center">
+        <div class="info m-auto w-75 p-5">
+            <h1 id="username"></h1>
+        </div>
+    </div>
+
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
